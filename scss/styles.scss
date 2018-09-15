@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700');
+
+$offblack: #353535;
+$gold: #b7a266;
+$offwhite: #e0e2db;
+
+body {
+  font-family: 'News Cycle', sans-serif;
+  background-color: $offwhite;
+  color: $offblack;
+  margin: 0;
+
+  header {
+    display: flex;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+
+    #hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      span {
+        display: block;
+        width: 45px;
+        height: 5px;
+        background-color: $offblack;
+        margin:3px 0;
+      }
+    }
+
+    h1 {
+      margin: 0;
+      padding-left: 15px;
+    }
+  }
+
+  #optionContainer {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+    width: calc(100% - 30px);
+    align-items: center;
+    padding: 0 15px;
+
+    .homeOption {
+      width: calc(50% - 10px);
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: red;
+      margin: 0 5px;
+    }
+  }
+}
+
+@media (min-width:600px) {}
+
+@media (min-width:900px) {}
+
+@media (min-width:1200px) {}
+
+@media (min-width:1800px) {}

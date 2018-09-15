@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+  h2 #{part} workouts
+  ul
+    each val in rows
+      a(href=`#`)
+        li= val
